@@ -10,11 +10,7 @@ body {
 	font-weight: 300;
 }
 
-main {
-	width: 90%;
-	margin-left: 5%;
-}
-
+/* Sidebar */
 aside {
 	text-align: center;
 }
@@ -51,6 +47,14 @@ aside p {
 	display: inline-block;
 }
 
+
+/* Main content area */
+main {
+	width: 90%;
+	margin-left: 5%;
+}
+
+/* Header */
 header {
 	display: block;
 }
@@ -71,12 +75,13 @@ hr {
 	color: #2d3c49;
 }
 
-
+/* Hero Image */
 .hero-image img {
 	width: 100%;
 	padding-top: 30px;
 }
 
+/* Featured work */
 .work-tiles {
 	display: block;
 	width: 100%;

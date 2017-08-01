@@ -12,18 +12,12 @@ body {
 	margin: 0 auto;
 }
 
-main {
-	float: right;
-	top: 0;
-	width: 90%;
-}
-
+/* Sidebar */
 aside {
 	float: left;
 	padding-top: 120px;
 	width: 10%;
 }
-
 
 #color-1 {
 	height: 50px;
@@ -43,6 +37,14 @@ aside {
 	background-color: #7d97ad;
 }
 
+/* Main content area */
+main {
+	float: right;
+	top: 0;
+	width: 90%;
+}
+
+/* Header */
 header {
 	width: 100%;
 	display: block;
@@ -65,12 +67,13 @@ hr {
 	color: #2d3c49;
 }
 
-
+/* Hero Image */
 .hero-image img {
 	width: 100%;
 	padding-top: 30px;
 }
 
+/* Featured work */
 .work-container {
 	text-align: center;
 }
