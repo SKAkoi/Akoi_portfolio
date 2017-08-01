@@ -1,0 +1,87 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 2% 5% 2% 5%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
+main {
+	width: 90%;
+	margin-left: 5%;
+}
+
+aside {
+	text-align: center;
+}
+
+aside p {
+	padding: 10px;
+}
+
+.color-blocks {
+	text-align: center;
+	display: flex;
+	width: 300px;
+	margin: 0 auto;
+}
+
+#color-1 {
+	background-color: #02b3e4;
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+}
+
+#color-2 {
+	background-color: #2d3c49;
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+}
+
+#color-3 {
+	background-color: #7d97ad;
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+}
+
+header {
+	display: block;
+}
+
+.udacity-logo {
+	width: 20%;
+	margin-left: 40%;
+}
+
+hr {
+	background-color: #7d97ad;
+	width: 100%;
+	height: 4px;
+}
+
+.name {
+	text-align: center;
+	color: #2d3c49;
+}
+
+
+.hero-image img {
+	width: 100%;
+	padding-top: 30px;
+}
+
+.work-tiles {
+	display: block;
+	width: 100%;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.work-tiles>img {
+	width: 100%;
+}
